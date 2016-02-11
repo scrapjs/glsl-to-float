@@ -1,7 +1,5 @@
 Read float values from WebGL. An alternative to [glsl-read-float](https://www.npmjs.com/package/glsl-read-float), based on other [technique](http://stackoverflow.com/a/20859830/1052640), allows just read resulting buffer as array.
 
-[![npm install glsl-float](https://nodei.co/npm/glsl-float.png?mini=true)](https://npmjs.org/package/glsl-float/)
-
 ```js
 var triangle     = require('a-big-triangle')
 var glslify      = require('glslify')
