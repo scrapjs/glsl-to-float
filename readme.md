@@ -1,4 +1,4 @@
-Read float values from WebGL. An alternative to [glsl-read-float](https://www.npmjs.com/package/glsl-read-float), based on other [technique](http://stackoverflow.com/a/20859830/1052640), allows just read resulting buffer as array.
+Read float values from WebGL. An alternative to [glsl-read-float](https://www.npmjs.com/package/glsl-read-float), based on the other [technique](http://stackoverflow.com/a/20859830/1052640), allows just to read resulting buffer as array.
 
 ```js
 var triangle     = require('a-big-triangle')
