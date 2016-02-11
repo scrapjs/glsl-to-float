@@ -1,0 +1,36 @@
+{
+  "name": "glsl-to-float",
+  "version": "1.0.0",
+  "description": "Read float values from webgl",
+  "main": "index.js",
+  "scripts": {
+    "test": "budo test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfcreative/glsl-to-float.git"
+  },
+  "browserify": {
+    "transform": "glslify"
+  },
+  "keywords": [
+    "glsl",
+    "read",
+    "float",
+    "gpu",
+    "gl",
+    "webgl",
+    "stackgl",
+    "gpgpu",
+    "glslify"
+  ],
+  "author": "Adrian Seely",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/glsl-to-float/issues"
+  },
+  "homepage": "https://github.com/dfcreative/glsl-to-float#readme",
+  "devDependencies": {
+    "glsl-read-float": "^1.1.0"
+  }
+}
